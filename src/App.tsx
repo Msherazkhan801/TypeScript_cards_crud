@@ -1,4 +1,5 @@
 import './App.css';
+import EventHnadle from './component/EventHnadle';
 import PropsExample from './component/PropsExample';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <button className='btn btn-success btn-sm'>
           <i className='fa fa-book'></i> Read More</button>
         <PropsExample name={'khan'} contact={123524}/>
+        <EventHnadle/>
     </div>
   );
 }

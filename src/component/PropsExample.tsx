@@ -13,7 +13,7 @@ const PropsExample:React.FC<IProps> = ({name , contact}) => {
      return (
     <div><h2>PropsExample</h2>
     <div className="row">
-        <div className="col">
+        <div className="col-md-5">
             <div className="card">
                 <div className="card-body">
                   <ul className="item-group">
