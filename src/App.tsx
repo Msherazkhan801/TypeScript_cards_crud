@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PropsExample from './component/PropsExample';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+     <h2 className='text-center m-1'>Main Pages</h2>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quibusdam enim ex quo expedita rerum dolorem aspernatur.
+        Deserunt consequuntur exercitationem iure, natus quasi incidunt dignissimos amet quae vitae sint tenetur.</p>
+        <button className='btn btn-success btn-sm'>
+          <i className='fa fa-book'></i> Read More</button>
+        <PropsExample name={'khan'} contact={123524}/>
     </div>
   );
 }
